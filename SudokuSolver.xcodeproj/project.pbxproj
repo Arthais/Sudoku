@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D4974E1A53E41D00BA4E75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D4974D1A53E41D00BA4E75 /* main.cpp */; };
+		B3D497561A53E72600BA4E75 /* libSudokuSolver.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */; };
+		B3D4975D1A53EA6D00BA4E75 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D4975B1A53EA6D00BA4E75 /* Cell.cpp */; };
+		B3D4975E1A53EA6D00BA4E75 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D4975C1A53EA6D00BA4E75 /* Cell.h */; };
+		B3D497611A53EE2200BA4E75 /* Region.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D4975F1A53EE2200BA4E75 /* Region.cpp */; };
+		B3D497621A53EE2200BA4E75 /* Region.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D497601A53EE2200BA4E75 /* Region.h */; };
+		B3D497651A53F81800BA4E75 /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D497631A53F81800BA4E75 /* Grid.cpp */; };
+		B3D497661A53F81800BA4E75 /* Grid.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D497641A53F81800BA4E75 /* Grid.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D497541A53E71D00BA4E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D497311A53E34F00BA4E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D4973A1A53E3D900BA4E75;
+			remoteInfo = SudokuSolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3D497491A53E41D00BA4E75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSudokuSolver.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D4974B1A53E41D00BA4E75 /* TestSudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestSudoku; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D4974D1A53E41D00BA4E75 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3D4975B1A53EA6D00BA4E75 /* Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = SOURCE_ROOT; };
+		B3D4975C1A53EA6D00BA4E75 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = SOURCE_ROOT; };
+		B3D4975F1A53EE2200BA4E75 /* Region.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Region.cpp; sourceTree = SOURCE_ROOT; };
+		B3D497601A53EE2200BA4E75 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = SOURCE_ROOT; };
+		B3D497631A53F81800BA4E75 /* Grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = SOURCE_ROOT; };
+		B3D497641A53F81800BA4E75 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D497381A53E3D900BA4E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D497481A53E41D00BA4E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D497561A53E72600BA4E75 /* libSudokuSolver.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D497301A53E34F00BA4E75 = {
+			isa = PBXGroup;
+			children = (
+				B3D4973D1A53E3D900BA4E75 /* SudokuSolver */,
+				B3D4974C1A53E41D00BA4E75 /* TestSudoku */,
+				B3D4973C1A53E3D900BA4E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D4973C1A53E3D900BA4E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */,
+				B3D4974B1A53E41D00BA4E75 /* TestSudoku */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D4973D1A53E3D900BA4E75 /* SudokuSolver */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4975B1A53EA6D00BA4E75 /* Cell.cpp */,
+				B3D4975C1A53EA6D00BA4E75 /* Cell.h */,
+				B3D4975F1A53EE2200BA4E75 /* Region.cpp */,
+				B3D497601A53EE2200BA4E75 /* Region.h */,
+				B3D497631A53F81800BA4E75 /* Grid.cpp */,
+				B3D497641A53F81800BA4E75 /* Grid.h */,
+			);
+			path = SudokuSolver;
+			sourceTree = "<group>";
+		};
+		B3D4974C1A53E41D00BA4E75 /* TestSudoku */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4974D1A53E41D00BA4E75 /* main.cpp */,
+			);
+			path = TestSudoku;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3D497391A53E3D900BA4E75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D497661A53F81800BA4E75 /* Grid.h in Headers */,
+				B3D497621A53EE2200BA4E75 /* Region.h in Headers */,
+				B3D4975E1A53EA6D00BA4E75 /* Cell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3D4973A1A53E3D900BA4E75 /* SudokuSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D497441A53E3D900BA4E75 /* Build configuration list for PBXNativeTarget "SudokuSolver" */;
+			buildPhases = (
+				B3D497371A53E3D900BA4E75 /* Sources */,
+				B3D497381A53E3D900BA4E75 /* Frameworks */,
+				B3D497391A53E3D900BA4E75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokuSolver;
+			productName = SudokuSolver;
+			productReference = B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		B3D4974A1A53E41D00BA4E75 /* TestSudoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D4974F1A53E41D00BA4E75 /* Build configuration list for PBXNativeTarget "TestSudoku" */;
+			buildPhases = (
+				B3D497471A53E41D00BA4E75 /* Sources */,
+				B3D497481A53E41D00BA4E75 /* Frameworks */,
+				B3D497491A53E41D00BA4E75 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D497551A53E71D00BA4E75 /* PBXTargetDependency */,
+			);
+			name = TestSudoku;
+			productName = TestSudoku;
+			productReference = B3D4974B1A53E41D00BA4E75 /* TestSudoku */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D497311A53E34F00BA4E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					B3D4973A1A53E3D900BA4E75 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B3D4974A1A53E41D00BA4E75 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B3D497341A53E34F00BA4E75 /* Build configuration list for PBXProject "SudokuSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3D497301A53E34F00BA4E75;
+			productRefGroup = B3D4973C1A53E3D900BA4E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D4973A1A53E3D900BA4E75 /* SudokuSolver */,
+				B3D4974A1A53E41D00BA4E75 /* TestSudoku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D497371A53E3D900BA4E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D497651A53F81800BA4E75 /* Grid.cpp in Sources */,
+				B3D4975D1A53EA6D00BA4E75 /* Cell.cpp in Sources */,
+				B3D497611A53EE2200BA4E75 /* Region.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D497471A53E41D00BA4E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D4974E1A53E41D00BA4E75 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D497551A53E71D00BA4E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D4973A1A53E3D900BA4E75 /* SudokuSolver */;
+			targetProxy = B3D497541A53E71D00BA4E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3D497351A53E34F00BA4E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B3D497361A53E34F00BA4E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B3D497451A53E3D900BA4E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3D497461A53E3D900BA4E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3D497501A53E41D00BA4E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3D497511A53E41D00BA4E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D497341A53E34F00BA4E75 /* Build configuration list for PBXProject "SudokuSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D497351A53E34F00BA4E75 /* Debug */,
+				B3D497361A53E34F00BA4E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D497441A53E3D900BA4E75 /* Build configuration list for PBXNativeTarget "SudokuSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D497451A53E3D900BA4E75 /* Debug */,
+				B3D497461A53E3D900BA4E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D4974F1A53E41D00BA4E75 /* Build configuration list for PBXNativeTarget "TestSudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D497501A53E41D00BA4E75 /* Debug */,
+				B3D497511A53E41D00BA4E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D497311A53E34F00BA4E75 /* Project object */;
+}
