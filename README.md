@@ -1,4 +1,4 @@
 Projet C++ Centrale Paris
-Hadelin de Pontevès
+Hadelin de Pontevès \n
 Clément Mazet-Sonilhac
 Charles Rilhac
