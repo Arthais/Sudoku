@@ -1,24 +1,21 @@
-//
-//  Region.h
-//  SudokuSolver
-//
-//  Created by Yolaine Rilhac on 31/12/2014.
-//
-//
-
 #ifndef __SudokuSolver__Region__
 #define __SudokuSolver__Region__
 #include <string>
 #include <regex>
 #include <iostream>
 #include "Cell.h"
-
+#include "Position.h"
 using namespace std;
+
 class Region {
 public:
-    Region() = delete;
+    Region() = default;
     Region(string exp);
-    void Print();
+    void print();
+
+    const Cell& get(Position pos) const;
+    
+    friend ostream& operator<< (ostream& stream, const Region& region);
 private:
     Cell _cells[9];
 };
