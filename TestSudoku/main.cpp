@@ -10,7 +10,7 @@ int main(int argc, const char * argv[]) {
     Cell t;
     cout << "t: " << t << " Empty ? " << boolalpha << t.isEmpty() << endl;
     cout << "t==t : " << (t==t) << endl;
-    cout << "t==-1 : " << (t==-1) << endl;
+    cout << "t==-1 : " << (t==(uint8_t)2) << endl;
     
 //    try {
 //        Cell t1(124); //Cell(-1);
@@ -21,9 +21,11 @@ int main(int argc, const char * argv[]) {
 //    Cell t2(2);
 //    cout << "t2: " << t2 << " Empty ? " << boolalpha << t2.isEmpty() << endl;
 //    
-//    Region rd;
-//    cout << rd << endl;
-//    
+    Region rd;
+    cout << rd << endl;
+    cout << "rd empty ? " << rd.isEmpty() << endl;
+    cout << "rd full ? " << rd.isFull() << endl;
+//
 //    try {
 //        Region r("482---15-");
 //        r.print();
@@ -33,9 +35,11 @@ int main(int argc, const char * argv[]) {
 //        cout << e.what() << endl;
 //    }
 //    
-//    Grid g;
-//    g.print();
-//    
+    Grid g;
+    g.print();
+    cout << "g empty ? " << g.isEmpty() << endl;
+    cout << "g full ? " << g.isFull() << endl;
+    
 //    map<Position, Region> m;
 //    for(int i = 0; i < 9; i++)
 //    {

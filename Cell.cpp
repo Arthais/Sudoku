@@ -43,10 +43,10 @@ bool Cell::operator==(uint8_t value) const
     return (_value == value);
 }
 
-bool Cell::operator==(int value) const
-{
-    return (_value == value);
-}
+//bool Cell::operator==(int value) const
+//{
+//    return (_value == value);
+//}
 
 bool Cell::operator==(const Cell& c) const
 {

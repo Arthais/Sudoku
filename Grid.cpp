@@ -21,6 +21,26 @@ const Region& Grid::get(Position pos) const
     return _regions[pos];
 }
 
+RegionHolder Grid::getByHolder(Position pos)
+{
+    RegionHolder region(_regions[pos]);
+    return region;
+}
+bool Grid::isFull() const
+{
+    for (int i = 0; i < 9; i++) {
+        if(!_regions[i].isFull()) return false;
+    }
+    return true;
+}
+bool Grid::isEmpty() const
+{
+    for (int i = 0; i < 9; i++) {
+        if(!_regions[i].isEmpty()) return false;
+    }
+    return true;
+}
+
 void Grid::print()
 {
 

@@ -22,11 +22,25 @@ Region::Region(string exp)
     }
 }
 
-const Cell& Region::get(Position pos) const
+Cell& Region::get(Position pos)
 {
     return _cells[pos];
 }
 
+bool Region::isFull() const
+{
+    for (int i = 0; i < 9; i++) {
+        if(_cells[i].isEmpty()) return false;
+    }
+    return true;
+}
+bool Region::isEmpty() const
+{
+    for (int i = 0; i < 9; i++) {
+        if(!_cells[i].isEmpty()) return false;
+    }
+    return true;
+}
 
 ostream& operator<< (ostream& stream, const Region& region)
 {

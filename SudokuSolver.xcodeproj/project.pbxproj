@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B3154A5D1A54185600485A23 /* Position.h in Headers */ = {isa = PBXBuildFile; fileRef = B3154A5C1A54185600485A23 /* Position.h */; };
-		B3154A5F1A542DBF00485A23 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B3154A5E1A542DBF00485A23 /* README.md */; };
+		B3154A621A5432DE00485A23 /* TripleHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3154A601A5432DE00485A23 /* TripleHolder.cpp */; };
+		B3154A631A5432DE00485A23 /* TripleHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B3154A611A5432DE00485A23 /* TripleHolder.h */; };
+		B3154A671A54351A00485A23 /* RowHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3154A651A54351A00485A23 /* RowHolder.cpp */; };
+		B3154A681A54351A00485A23 /* RowHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B3154A661A54351A00485A23 /* RowHolder.h */; };
+		B3154A6B1A54368D00485A23 /* ColumnHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3154A691A54368D00485A23 /* ColumnHolder.cpp */; };
+		B3154A6C1A54368D00485A23 /* ColumnHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B3154A6A1A54368D00485A23 /* ColumnHolder.h */; };
+		B3154A6F1A54490900485A23 /* RegionHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3154A6D1A54490900485A23 /* RegionHolder.cpp */; };
+		B3154A701A54490900485A23 /* RegionHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B3154A6E1A54490900485A23 /* RegionHolder.h */; };
 		B3D4974E1A53E41D00BA4E75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D4974D1A53E41D00BA4E75 /* main.cpp */; };
 		B3D497561A53E72600BA4E75 /* libSudokuSolver.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */; };
 		B3D4975D1A53EA6D00BA4E75 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3D4975B1A53EA6D00BA4E75 /* Cell.cpp */; };
@@ -44,6 +51,14 @@
 /* Begin PBXFileReference section */
 		B3154A5C1A54185600485A23 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = SOURCE_ROOT; };
 		B3154A5E1A542DBF00485A23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B3154A601A5432DE00485A23 /* TripleHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TripleHolder.cpp; sourceTree = SOURCE_ROOT; };
+		B3154A611A5432DE00485A23 /* TripleHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripleHolder.h; sourceTree = SOURCE_ROOT; };
+		B3154A651A54351A00485A23 /* RowHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RowHolder.cpp; sourceTree = SOURCE_ROOT; };
+		B3154A661A54351A00485A23 /* RowHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowHolder.h; sourceTree = SOURCE_ROOT; };
+		B3154A691A54368D00485A23 /* ColumnHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColumnHolder.cpp; sourceTree = SOURCE_ROOT; };
+		B3154A6A1A54368D00485A23 /* ColumnHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnHolder.h; sourceTree = SOURCE_ROOT; };
+		B3154A6D1A54490900485A23 /* RegionHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegionHolder.cpp; sourceTree = SOURCE_ROOT; };
+		B3154A6E1A54490900485A23 /* RegionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionHolder.h; sourceTree = SOURCE_ROOT; };
 		B3D4973B1A53E3D900BA4E75 /* libSudokuSolver.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSudokuSolver.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D4974B1A53E41D00BA4E75 /* TestSudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestSudoku; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D4974D1A53E41D00BA4E75 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -74,6 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3154A641A5434FB00485A23 /* Holders */ = {
+			isa = PBXGroup;
+			children = (
+				B3154A601A5432DE00485A23 /* TripleHolder.cpp */,
+				B3154A611A5432DE00485A23 /* TripleHolder.h */,
+				B3154A651A54351A00485A23 /* RowHolder.cpp */,
+				B3154A661A54351A00485A23 /* RowHolder.h */,
+				B3154A691A54368D00485A23 /* ColumnHolder.cpp */,
+				B3154A6A1A54368D00485A23 /* ColumnHolder.h */,
+				B3154A6D1A54490900485A23 /* RegionHolder.cpp */,
+				B3154A6E1A54490900485A23 /* RegionHolder.h */,
+			);
+			name = Holders;
+			sourceTree = "<group>";
+		};
 		B3D497301A53E34F00BA4E75 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +126,7 @@
 		B3D4973D1A53E3D900BA4E75 /* SudokuSolver */ = {
 			isa = PBXGroup;
 			children = (
+				B3154A641A5434FB00485A23 /* Holders */,
 				B3D4975B1A53EA6D00BA4E75 /* Cell.cpp */,
 				B3D4975C1A53EA6D00BA4E75 /* Cell.h */,
 				B3D4975F1A53EE2200BA4E75 /* Region.cpp */,
@@ -123,9 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D497661A53F81800BA4E75 /* Grid.h in Headers */,
+				B3154A6C1A54368D00485A23 /* ColumnHolder.h in Headers */,
 				B3154A5D1A54185600485A23 /* Position.h in Headers */,
 				B3D497621A53EE2200BA4E75 /* Region.h in Headers */,
+				B3154A681A54351A00485A23 /* RowHolder.h in Headers */,
 				B3D4975E1A53EA6D00BA4E75 /* Cell.h in Headers */,
+				B3154A701A54490900485A23 /* RegionHolder.h in Headers */,
+				B3154A631A5432DE00485A23 /* TripleHolder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,10 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3154A6F1A54490900485A23 /* RegionHolder.cpp in Sources */,
 				B3D497651A53F81800BA4E75 /* Grid.cpp in Sources */,
+				B3154A6B1A54368D00485A23 /* ColumnHolder.cpp in Sources */,
+				B3154A671A54351A00485A23 /* RowHolder.cpp in Sources */,
 				B3D4975D1A53EA6D00BA4E75 /* Cell.cpp in Sources */,
-				B3154A5F1A542DBF00485A23 /* README.md in Sources */,
 				B3D497611A53EE2200BA4E75 /* Region.cpp in Sources */,
+				B3154A621A5432DE00485A23 /* TripleHolder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

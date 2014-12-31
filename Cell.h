@@ -15,7 +15,7 @@ public:
     operator uint8_t() const;
     bool operator==(const Cell& c) const;
     bool operator==(uint8_t c) const;
-    bool operator==(int c) const;
+//    bool operator==(int c) const;
     friend ostream& operator<< (ostream& stream, const Cell& cell);
 private:
     uint8_t _value;
