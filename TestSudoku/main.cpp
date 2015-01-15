@@ -11,6 +11,7 @@ int main(int argc, const char * argv[]) {
     cout << "t: " << t << " Empty ? " << boolalpha << t.isEmpty() << endl;
     cout << "t==t : " << (t==t) << endl;
     cout << "t==-1 : " << (t==(uint8_t)2) << endl;
+
     
 //    try {
 //        Cell t1(124); //Cell(-1);
